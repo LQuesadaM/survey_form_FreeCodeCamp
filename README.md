@@ -1,4 +1,5 @@
-# survey_form_FreeCodeCamp
+# survey_form_freeCodeCamp
+
 Certification
 
 Build a Survey Form
@@ -24,11 +25,11 @@ User Stories:
 - Inside the form element, you are presented with a button with id of submit to submit all the inputs
 - Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+Note: Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
 
 Get Help
 Tests
-- [ ] You should have an h1 element with an id of title.
+- [ ] You should have an `h1` element with an `id` of `title`.
 - [ ] Your #title should not be empty.
 - [ ] You should have a p element with an id of description.
 - [ ] Your #description should not be empty.
@@ -68,4 +69,3 @@ Tests
 - [ ] Every radio button group should have at least 2 radio buttons.
 - [ ] You should have at least two input elements with a type of checkbox (checkboxes) that are descendants of #survey-form.
 - [ ] All your checkboxes inside #survey-form should have a value attribute and value.
-
