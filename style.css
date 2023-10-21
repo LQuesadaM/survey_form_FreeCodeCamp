@@ -7,14 +7,28 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: rgba(85, 175, 211, 0.918);
+    height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 25px;
 
-    background: linear-gradient(225deg, #01e6ad 3%, #6a78ec 77%);
+    background: linear-gradient(225deg, #3f7064 3%, #52599c 77%);
     height: 100vh;
+}
 
+.title {
+    margin: 10px 0px 0px 0px;
+    color: #f3f3f3;
+}
+
+
+.description {
+    font-style: italic;
+    font-weight: 200;
+    color: #f3f3f3;
+    margin: 0;
 }
 
 .flex {
@@ -22,11 +36,16 @@ body {
     flex-direction: column;
 }
 
+
+
 .container {
     width: 600px;
-    min-width: 500px;
-    border: 2px solid rgb(150, 126, 126);
-    background-color: #42407249;
+    min-width: 350px;
+    border: 2px solid rgb(14, 12, 12);
+    background-color: #133c5ecb;
+    color: #f3f3f3;
+
+    padding: 18px;
 }
 
 
