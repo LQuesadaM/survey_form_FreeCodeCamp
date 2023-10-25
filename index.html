@@ -18,7 +18,7 @@
     </header>
       <section class="container">
         <form method="post" action="/" id="survey-form">
-          <fieldset class="flex">
+          <fieldset class="flex fieldset">
             <label for="name" id="name-label">
               Name
             </label>
@@ -56,7 +56,7 @@
             
           </fieldset>
 
-          <fieldset class="flex">
+          <fieldset class="flex fieldset">
             <label for="dropdown">Which option best describes your current role?</label>
             <select name="role" id="dropdown" required>
               <option disabled selected>Select current role</option>
@@ -68,7 +68,7 @@
             </select>
           </fieldset>
 
-          <fieldset class="flex">
+          <fieldset class="flex fieldset">
             <p class="recommend">Would you recommend freeCodeCamp to a friend?</p>
             <label>
               <input type="radio" name="recommend" value="definitely" checked /> Definitely
@@ -83,7 +83,7 @@
             </label>
           </fieldset>
 
-          <fieldset class="flex">
+          <fieldset class="flex fieldset">
             <label for="favorite-feature" class="feature-fav">What is your favorite feature of freeCodeCamp?</label>
             <select name="favorite-feature" id="favorite-feature" required>
                 <option disabled selected>Select an option</option>
@@ -94,7 +94,7 @@
             </select>
           </fieldset>
 
-          <fieldset class="flex">
+          <fieldset class="flex fieldset">
             <p class="">What would you like to see improved? <span class="apply-all">(Check all that apply)</span></p>
             <label>
                 <input type="checkbox" name="prefer-improved" value="front-end-projects">Front-end Projects
@@ -133,14 +133,14 @@
             </label>
           </fieldset>
 
-          <fieldset class="flex">
+          <fieldset class="flex fieldset">
             <label for="comment-suggestions">
               Any comments or suggestions?
             </label>
             <textarea name="comment-suggestions" id="comment-suggestions" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
           </fieldset>
 
-          <button type="submit" id="submit">Submit</button>
+          <button type="submit" id="submit" class="button">Submit</button>
         </form>
       </section>
   </body>

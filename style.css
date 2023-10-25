@@ -2,6 +2,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    margin: 2px;
 }
 
 
@@ -17,6 +18,7 @@ body {
     height: 100vh;
 }
 
+
 .title {
     margin: 10px 0px 0px 0px;
     color: #f3f3f3;
@@ -25,7 +27,6 @@ body {
 
 .description {
     font-style: italic;
-    font-weight: 200;
     color: #f3f3f3;
     margin: 0;
 }
@@ -36,20 +37,14 @@ body {
     border: 2px solid rgb(14, 12, 12);
     background-color: #133c5ecb;
     color: #f3f3f3;
-
     padding: 18px;
 }
 
 .flex {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-}
-
-.flex > input {
-    margin-bottom: 18px;
-    
+    /* margin: 0;
+    padding: 0; */
 }
 
 input, select {
@@ -57,15 +52,17 @@ input, select {
     border-radius: 5px;
 }
 
-
-.recommend {
-    margin: 0;
+.fieldset {
+    border: none;
+    width: 100%;
 }
 
-
-
-
-
-fieldset {
-    border: none;
+.button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #37AF65;
+    color: inherit;
+    
+    
 }
